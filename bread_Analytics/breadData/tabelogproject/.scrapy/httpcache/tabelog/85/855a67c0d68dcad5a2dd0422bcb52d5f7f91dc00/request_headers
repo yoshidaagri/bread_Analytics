@@ -1,0 +1,6 @@
+Referer: https://tabelog.com/hokkaido/C1100/rstLst/SC0101/20/
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8
+Accept-Language: en
+User-Agent: Scrapy/1.5.1 (+https://scrapy.org)
+Accept-Encoding: gzip,deflate
+Cookie: _tabelog_session_id=58ece9b622593b7be066d180a7631b1a; mo_r=264048d343f6d8fb8356e36ecd7246ca; ma_k=6baa502e3f96783f20bd8513e22fcb58; do_i=c83e9206da078facb08c9bbf717aa502; ta_l=1

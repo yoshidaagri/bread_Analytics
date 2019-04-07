@@ -1,0 +1,133 @@
+<!DOCTYPE HTML>
+<html lang="ja">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, user-scalable=0, initial-scale=1.0,minimum-scale=1, maximum-scale=1.0">
+<meta name="format-detection" content="telephone=no">
+<title>Sapporo City Wi-Fi</title>
+<link rel="stylesheet" type="text/css" href="../../common/css/common.css" media="all">
+<link rel="stylesheet" type="text/css" href="../../common/css/style.css" media="all">
+<link rel="stylesheet" type="text/css" href="../../color/blue/css/color.css" media="all">
+<link rel="stylesheet" type="text/css" href="/jcfw/css/style.css" media="all"><!-- JCW -->
+
+<!--[if lt IE 9]>
+<script src="../../common/js/html5shiv.js"></script>
+<script src="../../common/js/css3-mediaqueries.js"></script>
+<![endif]-->
+
+<script type="text/javascript" src="../../common/js/jquery-1.7.2.min.js"></script>
+<script type="text/javascript" src="../../common/js/disaster_switch.js"></script>
+<script type="text/javascript" src="../../common/js/location_switch.js"></script>
+<script type="text/javascript" src="../../common/js/tap.js"></script>
+<script type="text/javascript" src="/jcfw/js/jcfw.js"></script><!-- JCW -->
+<script type="text/javascript">
+$(function(){
+$("#jcfwBoxWrap").load("/jcfw/js/text_ja.html #text");
+});
+
+$(function() {	
+	$("#wrapper").fadeIn("fast");
+});
+$(function(){
+	$('.close,.modalBK').click(function(){
+		$('.wd').fadeOut(500);
+	});
+});
+$(function(){
+$("#langHead").on("click", function() {
+    $(this).toggleClass("active");
+    $("#lang").fadeToggle("fast");
+});
+});
+</script>
+</head>
+
+<body class="topPage noscript">
+
+<div id="language" class="lang6">
+    <p id="langHead"><span>language</span></p>
+	<ul id="lang" class="clearfix btn">
+		<li class="locale_switch" id="ja"><span>日本語</span></li>
+		<li class="locale_switch" id="ko"><span>한국어</span></li>
+		<li class="locale_switch" id="cn"><span>中文简体</span></li>
+		<li class="locale_switch" id="tw"><span>中文繁體</span></li>
+        <li class="locale_switch" id="th"><span>ภาษาไทย</span></li>
+		<li class="locale_switch langLast" id="en"><span>English</span></li>
+	</ul>
+</div>
+<!--/#language-->
+
+<div id="wrap">
+	<div id="main">
+		<h1><img src="../../common/img/main.png" alt="Sapporo City Wi-Fi"></h1>
+
+		<div id="normal" class="emergeBnr noscript">
+			<div id="main_box">
+				<ul class="stList">
+					<li>無料でご利用いただけます。</li>
+					<li>メールアドレスをご登録いただく必要があります。</li>
+					<li>利用時間(1回30分)を超過後、本ページが再度表示されます。</li>
+				</ul>
+				<p id="btn_connect" class="btn"> <a href="http://www.wifi-cloud.jp/auth_sapporo/check.html?">インターネットに接続する</a> </p>
+			</div>
+<!--2018.08.08 add start-->
+                                <p style="text-align:left; padding-left:15px; padding-right:15px; padding-bottom:10px">
+                                        <span style="color:#FF0101; font-weight: bold">
+                                                 【大通公園、チカホ各広場及び北3条広場（アカプラ）での運用】<br>
+                                                 札幌市ではSapporo City Wi-FiのSSID（※）を5.0GHz帯と2.4GHz帯の2種類に分割してサービスを提供しています。<br>
+                                        </span>
+                                                 ■利用について：<span style="font-weight: bold">「Sapporo_City_Wi-Fi」での接続を推奨します。</span>上記SSIDが表示されない場合や接続できない場合は<span style="font-weight: bold">SSID「Sapporo_City_Wi-Fi_2G」をご利用ください。</span><br>
+                                                 ※SSIDとは、Wi-Fi接続時にスマートフォン等の端末上で選択するWi-Fiの名称です。
+                                </p>
+
+<!--2018.08.08 add end-->
+		</div>
+		<!-- normal -->
+
+		<div id="disaster2" class="emergeBnr">
+			<h2>災害発生中につき<br>
+				インターネット接続開放中</h2>
+			<p>できるだけ多くの方にご利用いただくために、1回あたり15分間の利用とさせていただきますので、どうかご了承ください。（何回でもご利用いただけます。）</p>
+			<p class="disaster_btn btn"> <a href="../../auth/ja/tos.html">インターネットはこちら &gt;&gt;</a> </p>
+		</div>
+		<!-- disaster2 -->
+
+	</div>
+
+	<!-- 広告バナー -->
+	<ul class="bnrArea btn">
+          <li><a href="http://www.welcome.city.sapporo.jp/?lang=ja"><img src="../../common/img/ja/100_welcome_sapporo.png" alt="BANNER"></a></li>
+          <li><a href="http://www.hbc.co.jp/rocket/sapporoinfo/pc/index.html"><img src="../../common/img/ja/200_sapporo_info.jpg" alt="BANNER"></a></li>
+          <li><a href="http://ekibus.city.sapporo.jp/"><img src="../../common/img/ja/300_sapporo_transport.png" alt="BANNER"></a></li>
+
+		<!-- JCW -->
+		<li>
+			<p class="mtM con" id="jcfwBtn"><img src="/jcfw/bnr/bnr_jcfw_ja.png" alt="Japan Connected-free Wi-Fi"></p>
+			<div id="jcfw">
+				<div id="jcfwBox">
+					<div id="jcfwBoxWrap"></div>
+					<p id="jcfwClose">close</p>
+				</div>
+			</div>
+		</li>
+	</ul>
+	
+	<!-- 提供エリア -->
+	<ul class="linkArea btn">
+		<li class="area"><a href="option/area.php">提供エリア</a></li>
+        <li class="enquete"><a href="http://www.wifi-cloud.jp/enq_sapporo/jp/">'Sapporo City Wi-Fi' アンケート</a></li>
+	</ul>
+
+</div>
+<!--/#wrap-->
+
+<div id="footer">
+
+	<ul class="linkArea linkMini btn">
+		<li><a href="option/terms.php">免責事項</a></li>
+	</ul>
+
+	<p id="copyright">Copyright (C) NTT Broadband Platform, Inc. All Rights Reserved.</p>
+</div>
+</body>
+</html>

@@ -1,0 +1,6 @@
+Referer: https://tabelog.com/tokyo/A1319/rstLst/ramen/1/?Srt=D&SrtT=rt&sort_mode=1
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8
+Accept-Language: en
+User-Agent: Scrapy/1.5.1 (+https://scrapy.org)
+Accept-Encoding: gzip,deflate
+Cookie: _tabelog_session_id=ee158ba108bedec16e17efc31e4959e3; mo_r=53dc301c9511a7c74a03233bedca225f; ma_k=c657de158aae958c143b2ffe31700ed2; do_i=5233effba66b124f7d8d042a258ec1d6; ta_l=1

@@ -1,0 +1,11 @@
+Date: Sat, 15 Dec 2018 07:54:45 GMT
+Server: Apache
+X-Xss-Protection: 1; mode=block
+X-Content-Type-Options: nosniff
+Content-Type: text/html; charset=utf-8
+Cache-Control: max-age=0, private, must-revalidate, max-age=0
+Set-Cookie: _tabelog_session_id=0ee3d2bff73465bca3c6021a910a4379; domain=tabelog.com; path=/; expires=Sat, 15 Dec 2018 13:54:45 -0000; secure; HttpOnly
+Set-Cookie: ta_l=1; domain=tabelog.com; path=/; expires=Fri, 15 Mar 2019 07:54:45 -0000
+Expires: Sat, 15 Dec 2018 07:54:45 GMT
+Vary: Accept-Encoding,User-Agent
+Content-Encoding: gzip
