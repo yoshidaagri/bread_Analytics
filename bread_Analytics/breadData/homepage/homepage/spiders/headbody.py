@@ -23,7 +23,7 @@ class HomepageSpider(scrapy.Spider):
         self.conn = MySQLdb.connect(**params)
         self.c = self.conn.cursor()
 
-        sql = 'select homepage from shops where homepage is not null and homepage_crawl_flg = 0 '
+        sql = 'select homepage from shops where homepage is not null and homepage_crawl_flg = 0 and homepage <>"none" '
         self.c.execute(sql)
         urls = self.c.fetchall()
         print("ホームページ検索結果",urls)

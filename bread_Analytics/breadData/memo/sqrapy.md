@@ -66,3 +66,24 @@ Installing collected packages: cssselect, w3lib, parsel, PyDispatcher, queuelib,
   Running setup.py install for Twisted ... error
     Complete output from command /home/yoshida/pyProject/breadData/bin/python3 -u -c "import setuptools, tokenize;__file__='/tmp/pip-build-imm_816d/Twisted/setup.py';f=getattr(tokenize, 'open', open)(__file__);code=f.read().replace('\r\n', '\n');f.close();exec(compile(code, __file__, 'exec'))" install --record /tmp/pip-jlw00lig-record/install-record.txt --single-version-externally-managed --compile --install-headers /home/yoshida/pyProject/breadData/include/site/python3.6/Twisted:
 
+
+yoshida@yoshida-CFSX4-1:~/github/bread_Analytics/breadData$ # -*- coding: utf-8 -*-
+yoshida@yoshida-CFSX4-1:~/github/bread_Analytics/breadData$ source bin/activate(breadData) yoshida@yoshida-CFSX4-1:~/github/bread_Analytics/breadData$ ls
+DDL  bin       include  lib64  pyvenv.cfg  tabelog.py      test.py   yahooprojectDML  homepage  lib      memo   share       tabelogproject  test3.py
+(breadData) yoshida@yoshida-CFSX4-1:~/github/bread_Analytics/breadData$ cd homepage(breadData) yoshida@yoshida-CFSX4-1:~/github/bread_Analytics/breadData/homepage$ ls
+headbody.csv  homepage  scrapy.cfg
+
+1.店の情報を取得する
+(breadData) yoshida@yoshida-CFSX4-1:~/github/bread_Analytics/breadData/tabelogproject$ scrapy crawl tabelog -o tabelog.jl
+
+
+2.HOMEPAGEからURLを取得する
+(breadData) yoshida@yoshida-CFSX4-1:~/github/bread_Analytics/breadData/homepage$ scrapy crawl headbody -o headbody.csv
+
+* dockerインストール
+
+sudo curl -L "https://github.com/docker/compose/releases/download/1.12.0/docker-compose-$(uname -s)-$(uname -m)" -o /usr/local/bin/docker-compose
+
+
+
+
