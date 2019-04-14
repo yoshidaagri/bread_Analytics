@@ -81,7 +81,9 @@ headbody.csv  homepage  scrapy.cfg
 (breadData) yoshida@yoshida-CFSX4-1:~/github/bread_Analytics/breadData/homepage$ scrapy crawl headbody -o headbody.csv
 
 * dockerインストール
-
+https://qiita.com/sea_ship/items/e71638458ef5f88e4a9c
+* re:dash
+https://qiita.com/sea_ship/items/f04071679026a129a4fe
 sudo curl -L "https://github.com/docker/compose/releases/download/1.12.0/docker-compose-$(uname -s)-$(uname -m)" -o /usr/local/bin/docker-compose
 
 
