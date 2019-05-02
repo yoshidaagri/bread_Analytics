@@ -1,0 +1,15 @@
+Date: Wed, 01 May 2019 11:24:52 GMT
+Server: Apache
+X-Xss-Protection: 1; mode=block
+X-Content-Type-Options: nosniff
+X-Frame-Options: SAMEORIGIN
+Content-Type: text/html; charset=utf-8
+Cache-Control: max-age=0, private, must-revalidate, max-age=0
+Set-Cookie: _tabelog_session_id=4f1ff0c291108244aefaba4142b55a6b; domain=tabelog.com; path=/; expires=Wed, 01 May 2019 17:24:52 -0000; secure; HttpOnly
+Set-Cookie: mo_r=2cbe44ff8b4c67370223cbf9ace19b6d; domain=tabelog.com; path=/; secure; HttpOnly
+Set-Cookie: ma_k=089214f77c0844f8b6177b594b6f04c4; domain=tabelog.com; path=/; expires=Sun, 01 May 2039 11:24:51 -0000; secure; HttpOnly
+Set-Cookie: do_i=4e6dd03814c4885ae4e50b7e5e9fefd7; domain=tabelog.com; path=/; expires=Sun, 01 May 2039 11:24:51 -0000; secure
+Set-Cookie: ta_l=1; domain=tabelog.com; path=/; expires=Tue, 30 Jul 2019 11:24:51 -0000
+Expires: Wed, 01 May 2019 11:24:51 GMT
+Vary: Accept-Encoding,User-Agent
+Content-Encoding: gzip

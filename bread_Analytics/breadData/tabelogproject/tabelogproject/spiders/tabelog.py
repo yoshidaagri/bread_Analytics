@@ -19,8 +19,13 @@ class TabelogSpider(scrapy.Spider):
         #'https://tabelog.com/tokyo/A1319/rstLst/ramen/1/?Srt=D&SrtT=rt&sort_mode=1',
         # 'https://tabelog.com/hokkaido/C1101/rstLst/pan/1/',# 札幌市中央区
         #'https://tabelog.com/hokkaido/C1100/rstLst/SC0101/1/',# 札幌市
+        #'https://tabelog.com/hokkaido/rstLst/SC0101/',# 北海道
+        #'https://tabelog.com/miyagi/rstLst/SC0101/',# 宮城県
+        'https://tabelog.com/niigata/rstLst/SC0101/',# 新潟県
+        
         #'https://tabelog.com/miyagi/C4100/rstLst/SC0101/1/',# 仙台市
-        'https://tabelog.com/niigata/A1501/rstLst/SC0101/1/',# 新潟市
+        #'https://tabelog.com/miyagi/rstLst/SC0101/1',# 宮城県
+        #'https://tabelog.com/niigata/A1501/rstLst/SC0101/1/',# 新潟市
     )
     # 20店舗の一覧情報から店名をチョイスする。
     def parse(self, response):

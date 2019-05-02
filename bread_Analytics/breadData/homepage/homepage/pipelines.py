@@ -51,7 +51,7 @@ class ShopHomePagePipeline(object):
         Itemをitemsテーブルに挿入する。
         """
         # sql = "INSERT INTO shop_homepage(shop_id,url,head,body) VALUES (%s, %s, %s, %s)"
-        sql = "INSERT INTO shop_homepage(url,head,body) VALUES (%s, %s, LEFT(%s,65534))"
+        sql = "INSERT INTO shop_homepage(url,head,body) VALUES (%s, LEFT(%s,65534), LEFT(%s,65534))"
         # sql = "INSERT INTO shops(name,score,tabe_url) VALUES (%s, %s, %s, %s, %s, %s, %s)"
 
         curs = self.conn.cursor()

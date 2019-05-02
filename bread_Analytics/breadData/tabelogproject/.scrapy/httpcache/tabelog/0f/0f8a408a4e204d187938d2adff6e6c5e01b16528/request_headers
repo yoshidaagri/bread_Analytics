@@ -1,6 +1,6 @@
-Referer: https://tabelog.com/niigata/A1501/A150101/rstLst/SC0101/8/
+Referer: https://tabelog.com/niigata/rstLst/SC0101/16/
 Accept: text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8
 Accept-Language: en
 User-Agent: Scrapy/1.5.1 (+https://scrapy.org)
 Accept-Encoding: gzip,deflate
-Cookie: _tabelog_session_id=f7b8286bf72841586c171f089374fa8f; mo_r=e4a96491871fd1798ef638711acb5eca; ma_k=596b3ffc4b657f219271e3e7a784ec86; do_i=84aeeed6002d440a269a4c608cf8bcd8; ta_l=1
+Cookie: _tabelog_session_id=5744566bcb54eab2f8cb9e794f8e7263; mo_r=4b77fe80d8123acf96fa44a85dbf85bb; ma_k=387d73daa9510ea7aa772fd0c3f686cc; do_i=16117970c0bca1b977281320be7148ff; ta_l=1

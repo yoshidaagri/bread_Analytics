@@ -75,11 +75,11 @@ EXEC_SP: BEGIN
 --    WHERE  head     LIKE CONCAT('%','クロワッサン','%')
 --    or body LIKE CONCAT('%','クロワッサン','%');
 
-
   DECLARE curShopHomepage CURSOR FOR
-    SELECT shop_id FROM shop_homepage
-    WHERE  head     LIKE CONCAT('%',vProductName,'%')
-    or body LIKE CONCAT('%',vProductName,'%');
+    SELECT s.shop_id FROM shop_homepage sh,shops s
+    WHERE  sh.head     LIKE CONCAT('%',vProductName,'%')
+    or sh.body LIKE CONCAT('%',vProductName,'%')
+    AND sh.url = s.homepage;
 --    WHERE  head     LIKE CONCAT('%','クロワッサン','%')
 --    or body LIKE CONCAT('%','クロワッサン','%');
 

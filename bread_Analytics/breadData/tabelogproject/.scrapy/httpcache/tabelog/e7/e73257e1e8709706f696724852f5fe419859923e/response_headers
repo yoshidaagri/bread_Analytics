@@ -1,6 +1,11 @@
-Date: Sat, 12 Jan 2019 03:22:36 GMT
+Date: Tue, 30 Apr 2019 21:27:27 GMT
 Server: Apache
-X-Frame-Options: SAMEORIGIN
-X-Ua-Compatible: IE=edge;IE=11;IE=10;IE=9
-Location: http://div.wifi-cloud.jp/redir/?cmd=login&switchip=10.17.255.130&mac=10:02:b5:0e:4e:d0&ip=10.110.48.28&essid=Sapporo%5FCity%5FWi%2DFi%5F2G&apname=APARB10-008-06-110&apgroup=CNARB10-008-06A&url=https%3A%2F%2Ftabelog%2Ecom%2Fmiyagi%2FA0401%2FA040103%2F4003587%2F
-Content-Type: text/html
+X-Xss-Protection: 1; mode=block
+X-Content-Type-Options: nosniff
+Content-Type: text/html; charset=utf-8
+Cache-Control: max-age=0, private, must-revalidate, max-age=0
+Set-Cookie: _tabelog_session_id=9a9e9151eaa195330b82722935961e6e; domain=tabelog.com; path=/; expires=Wed, 01 May 2019 03:27:27 -0000; secure; HttpOnly
+Set-Cookie: ta_l=1; domain=tabelog.com; path=/; expires=Mon, 29 Jul 2019 21:27:27 -0000
+Expires: Tue, 30 Apr 2019 21:27:27 GMT
+Vary: Accept-Encoding,User-Agent
+Content-Encoding: gzip
